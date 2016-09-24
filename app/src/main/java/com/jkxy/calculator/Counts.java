@@ -11,7 +11,7 @@ public enum Counts {
         BigDecimal number = BigDecimal.valueOf(0);
         switch (this) {
             case PLUS:
-                number = number1.add(number2);
+                number = number1.add(number2);//加法
                 break;
             case SUB:
                 number = number1.subtract(number2);
